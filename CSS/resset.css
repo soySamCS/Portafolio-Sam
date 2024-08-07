@@ -211,3 +211,60 @@ body {
 .header-nav-button:hover{
   background: var(--blue-shadow);
 }
+
+.hero{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-wrapper{
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-content{
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-title{
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 64px;
+  color: var(--blue-shadow);
+  margin-bottom: 24px;
+}
+
+.hero-paragraph{
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--negro);
+  margin-bottom: 24px;
+}
+
+.hero-button{
+  width: fit-content;
+  padding: 12px 24px;
+  background-color: var(--blue-base);
+  border-radius: 12px;
+  color: var(--white);
+  font-weight: 900;
+}
+
+.hero-button:hover{
+  background-color: var(--blue-shadow);
+}
+
+.hero-profile{
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image{
+  border-radius: 50%;
+  width: 90%;
+}
