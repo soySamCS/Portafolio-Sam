@@ -262,9 +262,81 @@ body {
 .hero-profile{
   display: flex;
   justify-content: center;
+  padding: 24px;
 }
 
 .hero-image{
   border-radius: 50%;
   width: 90%;
+}
+
+/* Main */
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.main-wrapper{
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Section Services */
+
+.services{
+}
+
+.servives-content{
+max-width: 600px;
+margin-bottom: 24px;
+}
+
+.services-title{
+  font-size: 48px;
+  color: var(--blue-shadow);
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.services-paragraph{
+  font-size: 20px;
+  color: var(--negro);
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.services-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+
+.services-item{
+  padding: 24px;
+  background-color: var(--negro);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 24px;
+  border-radius: 24px;
+  box-shadow: 0 0 24px #0b0c0d4e;
+}
+
+.services-image{
+  align-self: center;
+  max-width: 112px;
+}
+
+.service-subtitle{
+  font-size: 32px;
+  color: var(--blue-highlight);
+  font-weight: 750;
+}
+
+.service-description{
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--white);
 }
